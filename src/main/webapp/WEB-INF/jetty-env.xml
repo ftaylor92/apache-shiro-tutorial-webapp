@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Mort Bay Consulting//DTD Configure//EN" "http://jetty.mortbay.org/configure.dtd">
+<Configure class="org.eclipse.jetty.webapp.WebAppContext">
+  <New id="myDS" class="org.eclipse.jetty.plus.jndi.Resource">
+    <Arg>jdbc/myDS</Arg>
+    <Arg>
+        <New class="org.postgresql.ds.PGSimpleDataSource">
+           <Set name="User">wqytuophiwmxkr</Set>
+           <Set name="Password">su_N3O-PvJkfiSlfrh1HJWJ8aK</Set>
+           <Set name="DatabaseName">ddh89vquvmc84b</Set>
+           <Set name="ServerName">ec2-174-129-1-179.compute-1.amazonaws.com</Set>
+           <Set name="PortNumber">5432</Set>
+           <Set name="ssl">true</Set>
+           <Set name="sslfactory">org.postgresql.ssl.NonValidatingFactory</Set>           
+        </New>
+    </Arg>
+  </New>
+</Configure>

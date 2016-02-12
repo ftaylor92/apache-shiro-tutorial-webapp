@@ -1,0 +1,10 @@
+{
+	"href": "https://api.stormpath.com/v1/accounts/3LVbbsIBLZEsZSRRxpARUx/customData",
+	"createdAt": "2016-02-11T21:07:16.478Z",
+	"modifiedAt": "2016-02-11T21:40:15.016Z",
+	"apacheShiroPermissions": 
+	[
+		"ship:NCC-1701-D:command",
+		"user:jlpicard:edit"
+	]
+}
